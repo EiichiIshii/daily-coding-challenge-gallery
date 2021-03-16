@@ -1,60 +1,46 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Daily Coding Challenge (PCJ) Gallery - E.C.H Works</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
-        <script src="back.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dailycoding-gellery.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-    <style>
-      body {
-        background-color: black;
-        color: white;
-        font-family: 'Dancing Script', cursive;
-      }
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Daily Coding Challenge (PCJ) Gallery - E.C.H Works</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="page-settings.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+  <script src="back.js"></script>
+  <script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "Build/dailycoding-gellery.json", { onProgress: UnityProgress });
+  </script>
+</head>
+<body>
 
-      div.caption{
-        font-family: 'Sawarabi Mincho', sans-serif;
-      }
-      #defaultCanvas0{
-  position: fixed;
-  top: 0;
-}
-
-a {
-  color: deepskyblue;
-}
-    </style>
-  <body>
-    <center>
-    <h1>Daily Coding Challenge (PCJ) Gallery - E.C.H Works</h1>
-    </center>
-    <div class="webgl-content">
-      <p style="margin-bottom:5em;"></p>
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+  <table border="1">
+    <tr>
+      <h1>Daily Coding Challenge (PCJ) Gallery - E.C.H Works</h1>
+    </tr>
+    <tr>
+      <div class="webgl-content">
+        <p style="margin-bottom:5em;"></p>
+        <div id="gameContainer" style="width: 960px; height: 600px"></div>
+        <div class="footer">
+          <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        </div>
       </div>
-    </div>
-    <center>
-    <div class="caption">
-    <p style="margin-bottom:640px;"></p>
-    <h2>Daily Coding Challenge (PCJ) Gallery - E.C.H Works</h2>
-    <h2><a href="https://twitter.com/eikun_0903" target="_blank" rel="noopener noreferrer">@eikun_0903</a> <a href="https://twitter.com/hashtag/dailycodingchallenge" target="_blank" rel="noopener noreferrer">#dailycodingchallenge</a></h2>
+    </tr>
+    <tr>
+      <div class="caption">
+        <p style="margin-bottom:640px;"></p>
+        <h2>Daily Coding Challenge (PCJ) Gallery - E.C.H Works</h2>
+        <h2><a href="https://twitter.com/eikun_0903" target="_blank" rel="noopener noreferrer">@eikun_0903</a> <a href="https://twitter.com/hashtag/dailycodingchallenge" target="_blank" rel="noopener noreferrer">#dailycodingchallenge</a></h2>
 
-    <p>Processing Community Japanのオンライン企画として、
+        <p>Processing Community Japanのオンライン企画として、
     2020年4月1日から5月14日の間、<br>Processingやp5.jsなどの
     ユーザーを中心に、毎日お題に沿ってプログラミングをする<br>
     "デイリーコーディングチャレンジ"が行われ、ハッシュタグ
@@ -66,10 +52,11 @@ a {
     ギャラリーを歩いてゆっくりご鑑賞ください。<br>
     (w, a, s, dキーまたは方向キーで移動
     </p>
-    <p style="margin-bottom:5em;"></p>
-    <a href="http://eiichiishii-web.jimdo.com/"target="_blank" rel="noopener noreferrer">WEB</a>
-    <p style="margin-bottom:2em;"></p>
-    </div>
-    </center>
-  </body>
+        <p style="margin-bottom:5em;"></p>
+        <a href="http://eiichiishii-web.jimdo.com/" target="_blank" rel="noopener noreferrer">E.C.H - WEB</a>
+        <p style="margin-bottom:2em;"></p>
+      </div>
+    </tr>
+  </table>
+</body>
 </html>
