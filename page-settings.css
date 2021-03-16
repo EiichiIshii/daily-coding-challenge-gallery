@@ -8,6 +8,10 @@ h1 {
   text-align: center;
 }
 
+td{
+padding: 5px 10px;
+}
+
 div.caption {
   font-family: "Sawarabi Mincho", sans-serif;
   text-align: center;
