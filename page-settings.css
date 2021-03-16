@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+
+div.caption {
+  font-family: "Sawarabi Mincho", sans-serif;
+  text-align: center;
+}
+#defaultCanvas0 {
+  position: fixed;
+  top: 0;
+}
+
+a {
+  color: deepskyblue;
+}
