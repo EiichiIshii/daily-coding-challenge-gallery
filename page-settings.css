@@ -14,7 +14,7 @@ div.caption {
 }
 
 #webgl-content{
-  position: relative;  
+  position: absolute;  
 }
 
 #defaultCanvas0 {
