@@ -15,6 +15,7 @@ div.caption {
 
 #webgl-content{
   position: absolute;  
+  box-sizing: border-box;
 }
 
 #defaultCanvas0 {
