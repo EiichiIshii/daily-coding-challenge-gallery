@@ -12,6 +12,11 @@ div.caption {
   font-family: "Sawarabi Mincho", sans-serif;
   text-align: center;
 }
+
+div.webgl-content{
+  position: relative;  
+}
+
 #defaultCanvas0 {
   position: fixed;
   top: 0;
